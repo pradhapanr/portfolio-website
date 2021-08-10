@@ -15,8 +15,8 @@ const Hero = () => (
                 <SectionText>
                     I am a student at the University of Guelph going into my third year. 
                 </SectionText>
-                <Button onClick = {() => window.location = "https://google.com"}>
-                    Learn More
+                <Button onClick = {() => window.location = "mailto:rajendranpradhapan@gmail.com"}>
+                    Contact Me
                 </Button>
             </LeftSection>
         </Section>
