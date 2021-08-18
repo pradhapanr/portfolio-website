@@ -5,7 +5,7 @@ export const projects = [
                   Parser was written in C and connected to JavaScript applet with the ffi-napi
                   library. Back end is managed with Node and Express, connected to a mySQL
                   database for storage of user GPX files.`,
-    image: '/images/1.png',
+    image: '/images/parser.png',
     tags: ['C', 'JavaScript', 'Express', 'MySQL'],
     source: 'https://github.com/pradhapanr/GPXParser',
     visit: 'https://github.com/pradhapanr/GPXParser',
@@ -17,36 +17,34 @@ export const projects = [
                  statistics of players in the game League of Legends. Statistics were then 
                  stored in formatted Excel files with a color coded format to allow for easy 
                  parsing by the user.`,
-    image: '/images/2.png',
+    image: '/images/excel.png',
     tags: ['Python', 'Excel', 'Rest API'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/pradhapanr/LeagueExcel',
+    visit: 'https://github.com/pradhapanr/LeagueExcel',
     id: 1,
   },
   {
     title: 'BComp Bot',
     description: `Fully featured discord bot made for the Guelph Bachelor of Computing Discord Bot
                   Hackathon. Leaderboard functionalities allow for easy viewings of players rankings
-                  in the games League of Legends and chess (lichess.com elo). Uses the Lichess API
-                  to allow users to create chess matches with various settings in one simple command
-                  in Discord. All data was stored in MongoDB using document schemas made in JavaScript.`,
-      image: '/images/3.png',
+                  in the games League of Legends and chess (Lichess API). Connected to MongoDB Atlas
+                   and hosted on an AWS EC2 instance.`,
+      image: '/images/leaderboard.png',
       tags: ['JavaScript', 'Node', 'AWS', 'MongoDB'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/pradhapanr/DiscordBot',
+    visit: 'https://github.com/pradhapanr/DiscordBot',
     id: 2,
   },
   {
-    title: 'University Store',
-    description: `Java program that acts as an example interface for an online store for supplies
-                  such as textbooks and electronics for the average university student. Created with
-                  key object oriented programming concepts in mind such as inheritance, abstraction, 
-                  and encapsulation. Also utilized various data structures such as HashMaps and 
-                  Linked Lists wherever appropriate.`,
-    image: '/images/4.png',
-    tags: ['Java', 'Gradle', 'OOP'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Pokedex',
+    description: `Flutter program designed for Android and iOS that displays all 151 original pokemon.
+                  Multiple page design with navigator class to traverse the application. Fetched data
+                  from public pokemon API to provide in depth statistics about each individual pokemon.
+                  `,
+    image: '/images/pokedex.png',
+    tags: ['Flutter', 'UI/UX design', 'Mobile App'],
+    source: 'https://github.com/pradhapanr/pokeflutter',
+    visit: 'https://github.com/pradhapanr/pokeflutter',
     id: 3,
   },
 ];

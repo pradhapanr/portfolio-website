@@ -44,6 +44,10 @@ const Timeline = () => {
 
     return (
         <Section id="about">
+            <SectionDivider/>
+            <div>
+                <br/>
+            </div>
             <SectionTitle>Timeline</SectionTitle>
             <SectionText>
                 A visual look at what I have accomplished in the last 3 years!

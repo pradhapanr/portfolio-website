@@ -32,6 +32,11 @@ const Projects = () => (
 				</BlogCard>
 			))}
 		</GridContainer>
+        <div>
+            <br/>
+            <br/>
+            <br/>
+        </div>
 	</Section>
 );
 
