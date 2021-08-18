@@ -35,6 +35,8 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  font-weight: bold;
+  font-size: 2rem
 
 `;
 
@@ -68,11 +70,12 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
+  height: 360px;
   padding: 0 50px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
@@ -108,5 +111,5 @@ padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
-font-size: 1.5rem;
+font-size: 1.8rem;
 `

@@ -6,8 +6,10 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section nopadding id="tech">
+
       <SectionDivider/>
-    <br />
+      <div> <br></br></div>
+
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
         Over the past 6 years, I have acquired various programming skills through my education
@@ -47,8 +49,6 @@ const Technologies = () =>  (
             </ListContainer>
         </ListItem>
     </List>
-
-    
 
   </Section>
 
